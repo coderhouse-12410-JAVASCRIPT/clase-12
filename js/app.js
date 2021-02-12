@@ -25,3 +25,8 @@ console.log(myFormInputName);
 
 
 // myFormInputName.remove();
+
+// Tomo el primer LI dentro de un elemento con ID contact-form
+var myFormNthElement = $( "#contact-form li:nth-child(3)");
+console.log(myFormNthElement);
+
